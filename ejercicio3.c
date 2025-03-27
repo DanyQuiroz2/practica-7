@@ -9,7 +9,8 @@ programa para validar si a es mayor a b.*/
 void main ()
 {
     int op, num1, num2;
-    
+    do
+    {
     printf ("menu: \n");
     printf ("escoge una opcion \n");
     printf ("1, - suma: \n");
@@ -36,13 +37,32 @@ void main ()
        scanf ("%i",&num1);
        printf ("dame otro numero:");
        scanf ("%i",&num2);
+       res= num1+ num2;
+       break;
+        case 2:
+       printf ("dame un numero: ");
+       scanf ("%i",&num1);
+       printf ("dame otro numero:");
+       scanf ("%i",&num2);
+       res= num1+ num2;
+       break;
+        case 3:
+       printf ("dame un numero: ");
+       scanf ("%i",&num1);
+       printf ("dame otro numero:");
+       scanf ("%i",&num2);
+       res= num1+ num2;
+       break;
+           case 4:
+       printf ("dame un numero: ");
+       scanf ("%i",&num1);
+       printf ("dame otro numero:");
+       scanf ("%i",&num2);
+       res= num1+ num2;
+       break;
     }
+    printf("el resultado de la operacion es:%1\n")
     if (num % 2 == 0)
     {
-    printf ("el numero es par /n");
-    }
-    else
-    {
-    printf ("el numero es impar/n");
-    }
+  
 }
