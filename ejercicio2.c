@@ -1,6 +1,6 @@
 /*Danila Quiroz Cruz
 ejercicio2
-programa para validar si si a es mayor a b.*/ 
+programa para validar si a b son par o impar.*/ 
 
 
 # include <stdio.h>
